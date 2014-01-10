@@ -28,6 +28,7 @@ function MainController($scope, $rootScope, $http, $window, $location, $gloriaLo
 		if ($scope.hubref != undefined) {
 			
 			if ($scope.hubref.app != undefined) {
+				$window.location.hash = '';
 				$window.location.pathname = $scope.hubref.app;	
 			}
 			

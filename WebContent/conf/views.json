@@ -10,5 +10,10 @@
 		"path": "/",
 		"html": "home/html/content.html",
 		"js": ["home/js/main.js", "home/js/jquery.barousel.js"]		
+	},
+	"images": {
+		"path": "/images",
+		"html": "images/html/content.html",
+		"js": ["images/js/images.js", "home/js/jquery.barousel.js", "images/js/datepicker.js"]		
 	}
 }

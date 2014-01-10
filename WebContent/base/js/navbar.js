@@ -51,6 +51,7 @@ function NavbarCtrl($scope, $http, $location, $window, $gloriaLocale) {
 		if (href != undefined) {
 			
 			if (href.app != undefined) {
+				$window.location.hash = '';
 				$window.location.pathname = href.app;	
 			}
 			

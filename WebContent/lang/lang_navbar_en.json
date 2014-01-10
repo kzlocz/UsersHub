@@ -8,9 +8,8 @@
 				"solar" : "Solar"
 			}
 		},
-		"generic": {
-			"header": "Generic",
-			"template": "Template"			
+		"images": {
+			"header": "Images"
 		}
 	}
 }

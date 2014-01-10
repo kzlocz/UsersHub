@@ -23,5 +23,12 @@
 				"type": "divider"			
 			}			
 		]	
+	},
+	"images": {
+		"text": "navbar.titles.images.header",
+		"href": {
+			"path": "/images"
+		}
+			
 	}
 }
