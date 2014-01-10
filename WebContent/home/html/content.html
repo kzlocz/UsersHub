@@ -1,0 +1,71 @@
+<link href="home/css/styles.css" rel="stylesheet"></link>
+<link href="home/css/barousel.css" rel="stylesheet"></link>
+<div>
+	<div class="page-header" style="border: none; margin-bottom: 10px">
+		<div class="row" style="margin-bottom: 0px">
+				<h2 style="margin-left: 18px">GLORIA Users</h2>			
+		</div>
+	</div>
+	<div class="row">
+		<div class="span7" style="text-align: justify">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+				venenatis lorem odio, vitae ultrices nisl venenatis quis. Nunc
+				iaculis magna vel lorem consectetur imperdiet. Ut vel nulla lacinia,
+				egestas diam scelerisque, blandit quam. Sed condimentum turpis ac
+				malesuada fermentum. Sed a massa lorem. Vestibulum nec elit est.
+				Duis cursus mi vel lorem euismod, nec ultricies nisl commodo. Nunc
+				consequat condimentum arcu sit amet porta. Nullam tortor leo,
+				facilisis et libero non, pulvinar aliquam dolor. Pellentesque
+				vulputate massa nec condimentum vehicula. Etiam nunc eros,
+				pellentesque sed bibendum at, aliquet sed ante.</p>
+			<br>
+			<p>Nam ac nisi quis sapien interdum accumsan. Cras volutpat elit
+				vitae libero dapibus sagittis. Mauris imperdiet pretium justo, ac
+				hendrerit ante mattis sed.Mauris dictum quis velit porttitor
+				blandit. Vivamus fringilla cursus odio, a tempus orci mattis sed.
+				Aliquam posuere fringilla orci nec iaculis. Mauris ultrices a augue
+				ut consectetur.</p>
+		</div>
+		<div class="span5" ng-controller="MainImagesCtrl">
+			<div class="animate-show" ng-show="!loading && slides.length > 0">
+				<div id="main_carousel" class="barousel"
+					style="width: 100%; height: 285px; border-bottom: 10px solid #000; border-top: 10px solid #000; border-radius: 3px">
+					<div class="barousel_image" style="width: 100%; height: 100%">
+
+						<img ng-repeat="slide in slides" src="{{slide.image}}" alt=""
+							ng-class="{'default': $first}" class="">
+					</div>
+					<div class="barousel_content"
+						style="padding: 10px 10px 0 10px; bottom: 10px">
+						<!-- content 1 -->
+						<div ng-repeat="slide in slides" ng-class="{'default': $first}">
+							<p class="header" style="line-height: 20px; font-size: 20px">{{'home.slide.title'
+								| i18n:slide.rt}}</p>
+							<p>{{'home.slide.date' | i18n:(slide.date | utc |
+								date:'completeDate') }}</p>
+							<p>
+								<b style="cursor: default" class="label label-info">{{slide.id}}</b>
+							</p>
+						</div>
+					</div>
+					<div ng-show="false" class="barousel_nav"></div>
+
+				</div>
+			</div>
+			<div class="animate-show" ng-show="!loading && slides.length == 0"
+				style="width: 70%; margin-left: 15%">
+				<div class="alert alert-info">
+					<strong>Oh my!</strong> No images today so far.
+				</div>
+			</div>
+			<div class="animate-show" ng-show="loading" class="mess-info"
+				style="width: 50%; margin-left: 25%">
+				<div class="alert alert-info">Loading...</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+

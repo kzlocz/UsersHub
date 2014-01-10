@@ -8,7 +8,7 @@
 	"main": {
 		"type": "main",
 		"path": "/",
-		"html": "base/html/main.html",
-		"js": []		
+		"html": "home/html/content.html",
+		"js": ["home/js/main.js", "home/js/jquery.barousel.js"]		
 	}
 }
