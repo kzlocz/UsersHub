@@ -1,0 +1,16 @@
+{
+	"titles" : {
+		"home": "Home",
+		"experiments": {
+			"header": "Experiments",
+			"online": {
+				"header": "Online",
+				"solar" : "Solar"
+			}
+		},
+		"generic": {
+			"header": "Generic",
+			"template": "Template"			
+		}
+	}
+}

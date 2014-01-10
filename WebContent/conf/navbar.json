@@ -1,0 +1,27 @@
+{		
+	"home": {
+		"text": "navbar.titles.home",
+		"href": {
+			"path": "/"
+		}
+	},
+	"experiments": {
+		"text": "navbar.titles.experiments.header",
+		"child": [			
+			{
+				"type": "header",
+				"text": "navbar.titles.experiments.online.header"			
+			},
+			{
+				"type": "link",
+				"text": "navbar.titles.experiments.online.solar",
+				"href": {
+					"app": "GLORIASolarExperiment"
+				}
+			},
+			{
+				"type": "divider"			
+			}			
+		]	
+	}
+}
