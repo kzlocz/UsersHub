@@ -1,0 +1,58 @@
+<link href="home/css/styles.css" rel="stylesheet"></link>
+<link href="home/css/barousel.css" rel="stylesheet"></link>
+<div ng-controller="CarouselCtrl">
+	<div class="page-header" style="border: none; margin-bottom: 10px">
+		<div class="row" style="margin-bottom: 0px">
+			<h2 style="margin-left: 18px">{{'images.header' | i18n}}</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span5">
+			<div ng-controller="DatepickerCtrl">
+				<div style="color: silver">
+					<datepicker align="center" class="rowBack" style="color: silver"
+						ng-model="dt" open="opened" min="'2013-06-01'" max="current"
+						date-disabled="disabled(date, mode)" ng-required="true"></datepicker>
+				</div>
+			</div>
+		</div>
+		<div class="span7">
+			<div class="animate-show" class="span4"
+				ng-show="!loading && slides.length > 0">
+				<div id="any_id" class="barousel">
+					<div class="barousel_image">
+
+						<img ng-repeat="slide in slides" src="{{slide.image}}" alt=""
+							ng-class="{'default': $first}" class="">
+					</div>
+					<div class="barousel_content" style="height: 90px">
+						<div ng-repeat="slide in slides" ng-class="{'default': $first}">
+							<p class="header">{{'images.slide.title' | i18n:slide.rt}}</p>
+							<p>{{'images.slide.date' | i18n:(slide.date | utc |
+								date:'mediumTime') }}</p>
+							<p>
+								<b style="cursor: default" class="label label-info">{{slide.id}}</b>
+							</p>
+						</div>
+					</div>
+					<div class="barousel_nav"></div>
+
+				</div>
+			</div>
+			<div class="animate-show" ng-show="!loading && slides.length == 0"
+				style="width: 70%; margin-left: 15%">
+				<br>
+				<div class="alert">
+					<strong>Oops!</strong> There are no images of that day.
+				</div>
+			</div>
+			<div class="animate-show" ng-show="loading" class="mess-info"
+				style="width: 50%; margin-left: 25%">
+				<br>
+				<div class="alert alert-info">
+					<strong>Loading.</strong> Please wait...
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
