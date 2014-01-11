@@ -2,7 +2,7 @@
 	"wrong": {
 		"type": "wrong-path",
 		"path": "/wrong",
-		"html": "base/html/wrong.html",
+		"html": "https://rawgithub.com/fserena/GLORIAAuthoringTool/master/WebContent/wrong.html",
 		"js": []		
 	},
 	"main": {
