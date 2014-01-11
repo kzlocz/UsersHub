@@ -1,9 +1,9 @@
-function loadRandomImages(scope, GloriaAPI, count, timeout) {
+function loadRandomImages(scope, $gloriaAPI, count, timeout) {
 	scope.slides = [];
 
 	console.log("loading images");
 
-	GloriaAPI.getRandomImages(count, function(imgraw) {
+	$gloriaAPI.getRandomImages(count, function(imgraw) {
 		if (imgraw != null && imgraw != 'null' && imgraw != '') {
 			var index = 0;
 
@@ -38,7 +38,7 @@ function loadRandomImages(scope, GloriaAPI, count, timeout) {
 	});
 }
 
-function MainImagesCtrl($scope, GloriaAPI, $timeout, $gloriaLocale) {
+function MainImagesCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
 	$gloriaLocale.loadResource('home/lang', 'home');
 	
 	$scope.myInterval = 1000;
@@ -47,7 +47,7 @@ function MainImagesCtrl($scope, GloriaAPI, $timeout, $gloriaLocale) {
 	$scope.date = null;
 
 	$scope.loading = true;
-	loadRandomImages($scope, GloriaAPI, 20, $timeout);
+	loadRandomImages($scope, $gloriaAPI, 20, $timeout);
 
 	$scope.addSlide = function(slideData) {
 		console.log('slide added: ' + slideData);

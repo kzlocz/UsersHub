@@ -1,13 +1,13 @@
 'use strict';
 
-function loadImages(scope, GloriaAPI, date, timeout) {
+function loadImages(scope, $gloriaAPI, date, timeout) {
 	scope.slides = [];
 
 	console.log("loading images");
 
 	if (date != null) {
 
-		GloriaAPI.getImagesByDate(date.getFullYear(), date.getMonth() + 1, date
+		$gloriaAPI.getImagesByDate(date.getFullYear(), date.getMonth() + 1, date
 				.getDate(), function(imgraw) {
 			if (imgraw != null && imgraw != 'null' && imgraw != '') {
 				var index = 0;
@@ -44,7 +44,7 @@ function loadImages(scope, GloriaAPI, date, timeout) {
 	}
 }
 
-function CarouselCtrl($scope, GloriaAPI, $timeout, $gloriaLocale) {
+function CarouselCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
 	
 	$gloriaLocale.loadResource('images/lang', 'images');
 	
@@ -56,7 +56,7 @@ function CarouselCtrl($scope, GloriaAPI, $timeout, $gloriaLocale) {
 	$scope.$watch('date', function() {
 		if ($scope.date != null) {
 			$scope.loading = true;
-			loadImages($scope, GloriaAPI, $scope.date, $timeout);
+			loadImages($scope, $gloriaAPI, $scope.date, $timeout);
 		}
 	});
 
