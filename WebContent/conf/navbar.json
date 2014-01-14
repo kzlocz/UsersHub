@@ -16,7 +16,7 @@
 				"type": "link",
 				"text": "navbar.titles.experiments.reservations.new",
 				"href": {
-					"app": "GLORIAReservations",
+					"app": "reservations",
 					"path": "/new"
 				}
 			},
@@ -24,7 +24,7 @@
 				"type": "link",
 				"text": "navbar.titles.experiments.reservations.pending",
 				"href": {
-					"app": "GLORIAReservations",
+					"app": "reservations",
 					"path": "/pending"
 				}
 			},
@@ -39,7 +39,7 @@
 				"type": "link",
 				"text": "navbar.titles.experiments.online.solar",
 				"href": {
-					"app": "GLORIASolarExperiment"
+					"app": "solar"
 				}
 			}		
 		]	
