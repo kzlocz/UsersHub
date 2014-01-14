@@ -10,6 +10,29 @@
 		"child": [			
 			{
 				"type": "header",
+				"text": "navbar.titles.experiments.reservations.header"			
+			},
+			{
+				"type": "link",
+				"text": "navbar.titles.experiments.reservations.new",
+				"href": {
+					"app": "GLORIAReservations",
+					"path": "/new"
+				}
+			},
+			{
+				"type": "link",
+				"text": "navbar.titles.experiments.reservations.pending",
+				"href": {
+					"app": "GLORIAReservations",
+					"path": "/pending"
+				}
+			},
+			{
+				"type": "divider"	
+			},
+			{
+				"type": "header",
 				"text": "navbar.titles.experiments.online.header"			
 			},
 			{
@@ -18,10 +41,7 @@
 				"href": {
 					"app": "GLORIASolarExperiment"
 				}
-			},
-			{
-				"type": "divider"			
-			}			
+			}		
 		]	
 	},
 	"images": {

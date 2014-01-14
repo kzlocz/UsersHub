@@ -6,6 +6,11 @@
 			"online": {
 				"header": "Online",
 				"solar" : "Solar"
+			},
+			"reservations" : {
+				"header": "RESERVATIONS",
+				"new": "New",
+				"pending": "Pending"
 			}
 		},
 		"images": {
