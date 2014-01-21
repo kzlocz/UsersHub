@@ -45,9 +45,9 @@
     z-index:20;
     background:url(../img/bg_barousel_content.png) repeat 0 0;
     color:#fff;
-    width:100%;
-    bottom:36px;
-    left:10px;
+    width:55%;
+    bottom:25px;
+    left:40%;
 }
 
 .barousel_content div
@@ -122,10 +122,11 @@
     display:block;
     width:25px;
     height:20px;
-    background-color:#4d4d4d;
+    background-color: #FF9900;
     font-size:0;
     line-height:0;
     text-decoration:none;
+	border-radius: 3px;
 }
 
 .barousel_nav li a:hover

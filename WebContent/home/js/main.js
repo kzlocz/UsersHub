@@ -45,6 +45,8 @@ function MainImagesCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
 	$scope.slides = [];
 	$scope.loading = false;
 	$scope.date = null;
+	
+	$scope.focused = false;
 
 	$scope.loading = true;
 	loadRandomImages($scope, $gloriaAPI, 20, $timeout);

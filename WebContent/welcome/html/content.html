@@ -46,7 +46,8 @@
 								<div class="animate-show" ng-show="register.fault.on">
 									<i class="icon-remove"
 										style="float: left; background-color: rgb(255, 82, 0); margin-right: 5px; margin-top: -1px"></i>
-									<div ng-switch on="register.fault.reason" style="padding-left: 20px">
+									<div ng-switch on="register.fault.reason"
+										style="padding-left: 20px">
 										<p ng-switch-when="server">Server error</p>
 										<p ng-switch-when="inv-email">Email address is incorrect</p>
 										<p ng-switch-when="password">Password is not valid</p>

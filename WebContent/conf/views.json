@@ -1,10 +1,4 @@
-{		
-	"wrong": {
-		"type": "wrong-path",
-		"path": "/wrong",
-		"html": "https://rawgithub.com/fserena/GLORIAAuthoringTool/master/WebContent/toolbox/html/wrong.html",
-		"js": []		
-	},
+{			
 	"main": {
 		"type": "main",
 		"path": "/",
@@ -26,7 +20,11 @@
 	"legal": {
 		"visibility": "public",
 		"path": "/legal",
-		"html": "https://rawgithub.com/fserena/GLORIAAuthoringTool/master/WebContent/toolbox/html/legal.html",
+		"html": "/gatool/toolbox/html/legal.html",
 		"js": []
+	},
+	"wrong": {
+		"type": "wrong-path",
+		"path": "/welcome"		
 	}
 }

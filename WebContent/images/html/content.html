@@ -31,7 +31,7 @@
 							<p>{{'images.slide.date' | i18n:(slide.date | utc |
 								date:'mediumTime') }}</p>
 							<p>
-								<b style="cursor: default" class="label label-info">{{slide.id}}</b>
+								<b style="cursor: default" class="label label-g">{{slide.id}}</b>
 							</p>
 						</div>
 					</div>
@@ -42,14 +42,14 @@
 			<div class="animate-show" ng-show="!loading && slides.length == 0"
 				style="width: 70%; margin-left: 15%">
 				<br>
-				<div class="alert">
+				<div class="alert alert-g">
 					<strong>Oops!</strong> There are no images of that day.
 				</div>
 			</div>
 			<div class="animate-show" ng-show="loading" class="mess-info"
 				style="width: 50%; margin-left: 25%">
 				<br>
-				<div class="alert alert-info">
+				<div class="alert alert-g">
 					<strong>Loading.</strong> Please wait...
 				</div>
 			</div>
