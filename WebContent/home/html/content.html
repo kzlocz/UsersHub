@@ -9,33 +9,53 @@
 				pequeño, multidisciplinar (astrónomos, informáticos, físicos...) y
 				con una enorme ilusión de que todas las ideas que tenemos se hagan
 				realidad.</p>
+			<h2 style="margin-top: 15px">Nuestro objetivo</h2>
+			<p>Queremos que GLORIA se convierta en la herramienta por
+				excelencia para aprender e investigar en Astronomía. Es una meta
+				ambiciosa y sabemos que hay un largo camino por delante. Nuestro
+				primer hito es ofrecerte un conjunto de experimentos para que pongas
+				a prueba nuestros telescopios y nos ayudes a analizar sus imágenes.</p>
 			<h2 style="margin-top: 15px">¿Qué puedes hacer?</h2>
-			<p>Nam ac nisi quis sapien interdum accumsan. Cras volutpat elit
+			<p>La herramienta básica para hacer ciencia. Cras volutpat elit
 				vitae libero dapibus sagittis. Mauris imperdiet pretium justo, ac
 				hendrerit ante mattis sed.Mauris dictum quis velit porttitor
 				blandit. Vivamus fringilla cursus odio, a tempus orci mattis sed.
 				Aliquam posuere fringilla orci nec iaculis. Mauris ultrices a augue
 				ut consectetur.</p>
-			<h2 style="margin-top: 15px">Nuestros telescopios</h2>
-			<p>
-				<iframe
-					src="http://maps.google.es/maps/ms?msid=205312274831185087174.0004c066c4c18989826ae&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=15.284185,-3.867187&amp;spn=102.530471,220.78125&amp;z=2&amp;output=embed"
-					frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
-					width="540" height="350"></iframe>
-				<br> <small>Visualiza <a
-					style="color: #0000ff; text-align: left;"
-					href="http://maps.google.es/maps/ms?msid=205312274831185087174.0004c066c4c18989826ae&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=15.284185,-3.867187&amp;spn=102.530471,220.78125&amp;z=2&amp;source=embed">GLORIA
-						Telescopes</a> en un mapa más grande
-				</small>.
-			</p>
+			<div style="margin-top: 15px"></div>
+			<div>
+				<div class="experiment-banner"
+					style="background-image: url(home/img/sun-alpha.png);">
+					<h4 style="margin-top: 0px">Experimento solar</h4>
+					Explora el Sol y sus manchas. Toma imágenes para ayudar a la
+					medición de la actividad solar.
+				</div>
+			</div>
+			<div style="margin-top: 15px; background-color: #0F0F0F">
+				<div class="experiment-banner"
+					style="background-image: url(home/img/night-alpha.png); background-position-x: -160px; background-position-y: -100px">
+					<h4 style="margin-top: 0px">Experimento nocturno</h4>
+					Explora el Sol y sus manchas. Toma imágenes para ayudar a la
+					medición de la actividad solar.
+				</div>
+			</div>
+			<div style="margin-top: 15px; background-color: #0F0F0F">
+				<div class="experiment-banner"
+					style="background-image: url(home/img/pspace-alpha.png);">
+					<h4 style="margin-top: 0px">Personal space</h4>
+					Take an event to locate the region of the sky that was directly
+					overhead at that exact moment.
+				</div>
+			</div>
 		</div>
 		<div class="span5" ng-controller="MainImagesCtrl">
 			<div class="right-bar">
-				<h4
-					style="margin-bottom: 10px; text-align: center">Imágenes
-					de la comunidad</h4>
+				<h5
+					style="margin-bottom: 7px; color: gray; margin-top: 8px; text-align: center;">Imágenes
+					de la comunidad</h5>
 				<div class="animate-show" ng-show="!loading && slides.length > 0">
-					<div id="main_carousel" class="barousel" ng-mouseenter="focused=true" ng-mouseleave="focused=false"
+					<div id="main_carousel" class="barousel"
+						ng-mouseenter="focused=true" ng-mouseleave="focused=false"
 						style="width: 100%; height: 276px; border-bottom: 2px solid #101010; border-top: 2px solid #101010; background-color: #101010">
 						<div class="barousel_image" style="width: 100%; height: 100%">
 
@@ -69,10 +89,52 @@
 					style="width: 50%; margin-left: 25%; margin-top: 15px">
 					<div class="alert alert-g">Loading...</div>
 				</div>
-				<h4
-					style="margin-bottom: 10px; text-align: center">Tus
-					imágenes</h4>
+			</div>
+			<div class="right-bar" style="margin-top: 15px">
+				<h5
+					style="margin-bottom: 7px; color: gray; text-align: center; margin-top: 8px;">Tus
+					imágenes</h5>
+				<div class="animate-show" ng-show="!loading && slides.length > 0">
+					<div id="main_carousel" class="barousel"
+						ng-mouseenter="focused=true" ng-mouseleave="focused=false"
+						style="width: 100%; height: 276px; border-bottom: 2px solid #101010; border-top: 2px solid #101010; background-color: #101010">
+						<div class="barousel_image" style="width: 100%; height: 100%">
 
+							<img ng-repeat="slide in slides" src="{{slide.image}}" alt=""
+								ng-class="{'default': $first}" class="">
+						</div>
+						<div class="barousel_content animate-show" ng-show="focused"
+							style="padding: 10px 10px 0 10px; bottom: 25px">
+							<!-- content 1 -->
+							<div ng-repeat="slide in slides" ng-class="{'default': $first}">
+								<p class="header" style="line-height: 20px; font-size: 17px">{{'home.slide.title'
+									| i18n:slide.rt}}</p>
+								<p>{{'home.slide.date' | i18n:(slide.date | utc |
+									date:'completeDate') }}</p>
+								<p>
+									<b style="cursor: default" class="label label-g">{{slide.id}}</b>
+								</p>
+							</div>
+						</div>
+						<div ng-show="false" class="barousel_nav"></div>
+					</div>
+				</div>
+			</div>
+			<div class="right-bar" style="margin-top: 15px">
+				<h5
+					style="margin-bottom: 7px; color: gray; margin-top: 8px; text-align: center">Nuestros
+					telescopios</h5>
+				<p>
+					<iframe
+						src="http://maps.google.es/maps/ms?msid=205312274831185087174.0004c066c4c18989826ae&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=15.284185,-3.867187&amp;spn=102.530471,220.78125&amp;z=2&amp;output=embed"
+						frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+						width="368" height="350"></iframe>
+					<br> <small>Visualiza <a
+						style="color: #0000ff; text-align: left;"
+						href="http://maps.google.es/maps/ms?msid=205312274831185087174.0004c066c4c18989826ae&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=15.284185,-3.867187&amp;spn=102.530471,220.78125&amp;z=2&amp;source=embed">GLORIA
+							Telescopes</a> en un mapa más grande
+					</small>.
+				</p>
 			</div>
 		</div>
 	</div>
