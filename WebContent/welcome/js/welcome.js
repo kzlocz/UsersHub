@@ -1,7 +1,7 @@
 function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout) {
 
 	$scope.wrapperStyle.height = '650px';
-	
+		
 	$scope.initValues = function() {
 		$scope.register = {
 				fault : {},

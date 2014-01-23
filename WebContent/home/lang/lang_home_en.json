@@ -1,6 +1,44 @@
 {
-	"slide": {
-		"title": "@{}@ image",
-		"date": "@{}@"
-	} 
+	"section1": {
+		"title": "You should know...",
+		"text": "That the GLORIA project is still at an early stage of development. We are a small and multidisciplinary team (astronomers, computer scientists, physicists ...) with a huge illusion that all our ideas come true." 
+	},
+	"section2": {
+		"title": "Our goal",
+		"text": "Queremos que GLORIA se convierta en la herramienta por excelencia para aprender e investigar en Astronomía. Es una meta ambiciosa y sabemos que hay un largo camino por delante. Nuestro primer hito es ofrecerte un conjunto de experimentos para que pongas a prueba nuestros telescopios y nos ayudes a analizar sus imágenes."
+	},
+	"section3": {
+		"title": "What can you do?",
+		"paragraph1": "La herramienta básica para aprender e investigar es el experimento. En GLORIA tenemos dos tipos de experimentos: los que sirven para tomar imágenes - online - y los que las analizan - offline -.",
+		"paragraph2": "Por el momento te ofrecemos cuatro experimentos diferentes, los cuales iremos mejorando con tu ayuda. Que disfrutes.",
+		"experiments" : {
+			"solar": {
+				"title": "Solar experiment",
+				"desc": "Explora el Sol y sus manchas. Toma imágenes para ayudar a la medición de la actividad solar."
+			},
+			"night": {
+				"title": "Night experiment",
+				"desc": "Observa el cielo nocturno. Estrellas, galaxias y asteroides te esperan."
+			},
+			"pspace": {
+				"title": "Personal space",
+				"desc": "Take an event to locate the region of the sky that was directly overhead at that exact moment."
+			},
+			"wolf": {
+				"title": "Solar activity",
+				"desc": "Analiza manchas solares en tu Android y contribuye a la medición de la actividad solar."
+			}
+		}
+	},
+	"widgets": {
+		"community": {
+			"title": "Community images"
+		},
+		"your": {
+			"title": "Your images"
+		},
+		"telescopes": {
+			"title": "Our telescopes"
+		}
+	}
 }
