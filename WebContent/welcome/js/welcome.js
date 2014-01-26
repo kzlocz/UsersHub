@@ -1,28 +1,33 @@
-function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout) {
+function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout,
+		$gloriaLocale) {
 
-	$scope.wrapperStyle.height = '650px';
-		
+	$scope.ready = false;
+	
+	$gloriaLocale.loadResource('welcome/lang', 'welcome', function() {
+		$scope.ready = true;
+	});
+
 	$scope.initValues = function() {
 		$scope.register = {
-				fault : {},
-				styles : {
-					email : {},
-					password : {},
-					alias : {}
-				}
-			};
+			fault : {},
+			styles : {
+				email : {},
+				password : {},
+				alias : {}
+			}
+		};
 
-			$scope.reset = {
-				email : null,
-				fault : {},
-				styles : {
-					email : {}
-				}
-			};
+		$scope.reset = {
+			email : null,
+			fault : {},
+			styles : {
+				email : {}
+			}
+		};
 	};
-	
+
 	$scope.initValues();
-	
+
 	$scope.warningColor = 'rgb(255, 82, 0)';
 
 	$scope.newUser = function() {
@@ -101,7 +106,7 @@ function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout) 
 							} else {
 								$scope.reset.fault.reason = 'server';
 							}
-							
+
 							$scope.reset.fault.on = true;
 						});
 	};
@@ -116,9 +121,10 @@ function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout) 
 			$scope.register.fault.on = false;
 		}
 	});
-	
+
 	$scope.$watch('register.repPassword', function() {
-		if ($scope.register.fault.on && $scope.register.repPassword != undefined) {
+		if ($scope.register.fault.on
+				&& $scope.register.repPassword != undefined) {
 			$scope.register.styles.password.borderColor = undefined;
 			$scope.register.fault.on = false;
 		}
@@ -144,7 +150,7 @@ function WelcomeUserController($scope, $location, Login, $gloriaView, $timeout) 
 			$scope.reset.fault.on = false;
 		}
 	});
-	
+
 	$scope.$watch('option', function() {
 		if ($scope.option != undefined) {
 			$scope.initValues();

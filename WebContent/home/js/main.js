@@ -38,26 +38,56 @@ function loadRandomImages(scope, $gloriaAPI, count, timeout) {
 	});
 }
 
-function MainImagesCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
-	$gloriaLocale.loadResource('home/lang', 'home');
-	
+function loadUserRandomImages(scope, $gloriaAPI, count, timeout) {
+	scope.slides = [];
+
+	console.log("loading images");
+
+	$gloriaAPI.getMyRandomImages(count, function(imgraw) {
+		if (imgraw != null && imgraw != 'null' && imgraw != '') {
+			var index = 0;
+
+			imgraw.forEach(function(element) {
+
+				var slide = {
+					image : element.jpg,
+					id : element.id,
+					date : element.creationDate,
+					rt : element.rt
+				};
+
+				if (index == 0) {
+					slide.active = true;
+				} else {
+					slide.active = false;
+				}
+
+				scope.addSlide(slide);
+
+				index++;
+			});
+		}
+
+		scope.timer = timeout(scope.loadCarousel, 500);
+
+	}, function(data, status) {
+		console.log('error', data, status);
+		scope.loading = false;
+	}, function() {
+		scope.$emit('unauthorized');
+	});
+}
+
+function CommunityImagesController($scope, $gloriaAPI, $timeout) {
 	$scope.myInterval = 1000;
 	$scope.slides = [];
 	$scope.loading = false;
-	$scope.date = null;
-	
 	$scope.focused = false;
-
-	$scope.loading = true;
-	loadRandomImages($scope, $gloriaAPI, 20, $timeout);
-
 	$scope.addSlide = function(slideData) {
-		console.log('slide added: ' + slideData);
 		$scope.slides.push(slideData);
 	};
-
 	$scope.loadCarousel = function() {
-		$('#main_carousel').barousel({
+		$('#comm_carousel').barousel({
 			navType : 2,
 			manualCarousel : 0,
 			slideDuration : 3000,
@@ -66,4 +96,40 @@ function MainImagesCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
 
 		$scope.loading = false;
 	};
+
+	$scope.loading = true;
+	loadRandomImages($scope, $gloriaAPI, 10, $timeout);
+}
+
+function UserImagesController($scope, $gloriaAPI, $timeout) {
+	$scope.myInterval = 1000;
+	$scope.slides = [];
+	$scope.loading = false;
+	$scope.focused = false;
+	$scope.addSlide = function(slideData) {
+		$scope.slides.push(slideData);
+	};
+	$scope.loadCarousel = function() {
+		$('#user_carousel').barousel({
+			navType : 2,
+			manualCarousel : 0,
+			slideDuration : 3000,
+			contentResize : 0
+		});
+
+		$scope.loading = false;
+	};
+
+	$scope.loading = true;
+	loadUserRandomImages($scope, $gloriaAPI, 10, $timeout);
+}
+
+
+function HomePageController($scope, $gloriaAPI, $timeout, $gloriaLocale) {
+	
+	$scope.ready = false;
+	
+	$gloriaLocale.loadResource('home/lang', 'home', function() {
+		$scope.ready = true;
+	});
 }

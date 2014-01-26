@@ -22,7 +22,7 @@
 			},
 			"pspace": {
 				"title": "Personal space",
-				"desc": "Elige un evento para buscar la región del cielo que estaba en el cénit en ese mismo momento."
+				"desc": "Elige un evento y encuentra la región del cielo que estaba en el cénit en ese mismo momento."
 			},
 			"wolf": {
 				"title": "Actividad solar",
@@ -31,14 +31,26 @@
 		}
 	},
 	"widgets": {
+		"loading": "Cargando",
+		"excl": "Vaya!",
+		"noimg": "No hay imágenes",
 		"community": {
-			"title": "Imágenes de la comunidad"
+			"title": "Imágenes de la comunidad",
+			"slide": {
+				"title": "Imagen del @{p1}@",
+				"date": "@{p1}@"
+			}
 		},
-		"your": {
-			"title": "Tus imágenes"
+		"user": {
+			"title": "Tus imágenes",
+			"slide": {
+				"title": "Imagen del @{p1}@",
+				"date": "@{p1}@"
+			}
 		},
 		"telescopes": {
-			"title": "Nuestros telescopios"
+			"title": "Nuestros telescopios",
+			"ad": "Un mapa más grande"
 		}
 	}
 }

@@ -1,6 +1,11 @@
 {
+	"header": "Image album",
 	"slide": {
-		"title": "@{}@ image",
-		"date": "@{}@"
-	} 
+		"title": "@{p1}@ image",
+		"date": "@{p1}@"
+	},
+	"intro": "This tool allows you to view as many times as you want all pictures taken by the community every day. Just use the calendar and browse snapshots",
+	"excl": "Oops!",
+	"noimg": "There are no images of that day",
+	"loading": "Loading"
 }

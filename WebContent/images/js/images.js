@@ -46,7 +46,11 @@ function loadImages(scope, $gloriaAPI, date, timeout) {
 
 function CarouselCtrl($scope, $gloriaAPI, $timeout, $gloriaLocale) {
 	
-	$gloriaLocale.loadResource('images/lang', 'images');
+	$scope.ready = false;
+	
+	$gloriaLocale.loadResource('images/lang', 'images', function() {
+		$scope.ready = true;
+	});
 	
 	$scope.myInterval = 1000;
 	$scope.slides = [];
