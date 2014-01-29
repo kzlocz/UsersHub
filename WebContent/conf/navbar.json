@@ -27,21 +27,7 @@
 					"app": "reservations",
 					"path": "/pending"
 				}
-			},
-			{
-				"type": "divider"	
-			},
-			{
-				"type": "header",
-				"text": "navbar.titles.experiments.online.header"			
-			},
-			{
-				"type": "link",
-				"text": "navbar.titles.experiments.online.solar",
-				"href": {
-					"app": "solar"
-				}
-			},
+			},			
 			{
 				"type": "divider"	
 			},
