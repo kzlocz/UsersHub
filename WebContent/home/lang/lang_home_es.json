@@ -27,7 +27,11 @@
 			"wolf": {
 				"title": "Actividad solar",
 				"desc": "Analiza manchas solares en tu Android y contribuye a la medición de la actividad solar."
-			}
+			},
+            "luiza": {
+                "title": "Estrellas variables",
+                "desc": "Visualiza la curva de luz de las estrellas."
+            }
 		}
 	},
 	"widgets": {

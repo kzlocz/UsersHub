@@ -27,6 +27,10 @@
             "wolf": {
                 "title": "Solar activity",
                 "desc": "Analyse sunspots on your Android and contribute to the measurement of solar activity."
+            },
+            "luiza": {
+                "title": "Variable stars",
+                "desc": "View the light curve of a selected star."
             }
         }
     },
