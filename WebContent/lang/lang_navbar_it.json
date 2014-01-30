@@ -16,7 +16,8 @@
                         "offline": {
                                 "header": "OFFLINE",
                                 "pspace" : "Personal Space",
-                                "wolf": "Attività solare"
+                                "wolf": "Attività solare",                                
+                				"luiza": "Variable stars"
                         }
                 },
                 "images": {

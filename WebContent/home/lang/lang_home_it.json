@@ -27,7 +27,11 @@
 			"wolf": {
 				"title": "Attività Solare",
 				"desc": "Analizza le macchie solari con il tuo Adroid e contribuisci alla misura dell'attività solare."
-			}
+			},
+            "luiza": {
+                "title": "Variable stars",
+                "desc": "View the light curve of a selected star."
+            }
 		}
 	},
 	"widgets": {
