@@ -22,12 +22,6 @@
         },
         "images": {
             "header": "Immagini"
-        },
-        "profile": {
-            "header": "Profile"
-        },
-        "issues": {
-            "header": "Issues"
         }
     }
 }

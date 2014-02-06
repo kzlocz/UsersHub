@@ -22,12 +22,6 @@
 		},
 		"images": {
 			"header": "Imágenes"
-		},
-        "profile": {
-            "header": "Perfil"
-        },
-        "issues": {
-            "header": "Incidencias"
-        }
+		}
 	}
 }
