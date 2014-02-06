@@ -22,6 +22,12 @@
         },
         "images": {
             "header": "Изображения"
+        },
+        "profile": {
+            "header": "Profile"
+        },
+        "issues": {
+            "header": "Issues"
         }
     }
 }
