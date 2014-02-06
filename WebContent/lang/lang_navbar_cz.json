@@ -2,26 +2,26 @@
     "titles": {
         "home": "Home",
         "experiments": {
-            "header": "Esperimenti",
+            "header": "Experiments",
             "online": {
                 "header": "ONLINE",
-                "solar": "Solare",
-                "night": "Notturno"
+                "solar": "Solar",
+                "night": "Night"
             },
             "reservations": {
-                "header": "Prenotazioni",
-                "new": "Nuova",
-                "pending": "In attesa"
+                "header": "RESERVATIONS",
+                "new": "New",
+                "pending": "Pending"
             },
             "offline": {
                 "header": "OFFLINE",
-                "pspace": "Personal Space",
-                "wolf": "Attività solare",
-                "luiza": "Stelle variabili"
+                "pspace": "Personal space",
+                "wolf": "Solar activity",
+                "luiza": "Variable stars"
             }
         },
         "images": {
-            "header": "Immagini"
+            "header": "Images"
         },
         "profile": {
             "header": "Profile"
