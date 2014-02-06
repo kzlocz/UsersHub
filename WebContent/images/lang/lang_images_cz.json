@@ -1,11 +1,11 @@
 {
-    "header": "Image album",
+    "header": "Album snímků",
     "slide": {
-        "title": "@{p1}@ image",
+        "title": "@{p1}@ snímek",
         "date": "@{p1}@"
     },
-    "intro": "This tool allows you to view all the pictures taken by the community every day. Just use the calendar and browse snapshots.",
+    "intro": "Tento nástroj vám umožní prohlédnout si snímky pořízené daný den komunitou. Použijte kalendář a projděte si náhledy.",
     "excl": "Oops!",
-    "noimg": "There are no images from that day",
-    "loading": "Loading"
+    "noimg": "Nenalezeny žádné snímky pro tento den",
+    "loading": "Nahrávám"
 }
