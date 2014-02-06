@@ -64,5 +64,17 @@
 			"path": "/images"
 		}
 			
+	},
+	"profile": {
+		"text": "navbar.titles.profile.header",
+		"href": {
+			"path": "/profile"
+		}
+	},
+	"issues": {
+		"text": "navbar.titles.issues.header",
+		"href": {
+			"path": "/issues"
+		}
 	}
 }
