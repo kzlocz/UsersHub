@@ -1,11 +1,11 @@
 {
-    "header": "Image album",
+    "header": "Album zdjęć",
     "slide": {
-        "title": "@{p1}@ image",
+        "title": "zdjęcie @{p1}@",
         "date": "@{p1}@"
     },
-    "intro": "This tool allows you to view all the pictures taken by the community every day. Just use the calendar and browse snapshots.",
-    "excl": "Oops!",
-    "noimg": "There are no images from that day",
-    "loading": "Loading"
+    "intro": "To narzędzie pozwala na zobaczenie wszystkich zdjęć wykonanych przez użytkowników strony w ciągu ostatniego dnia. Użyj kalendarza, aby zobaczyć zdjęcia z innych dni.",
+    "excl": "Uuups!",
+    "noimg": "Tego dnia nie wykonano żadnych zdjęć :(",
+    "loading": "Ładuję"
 }
