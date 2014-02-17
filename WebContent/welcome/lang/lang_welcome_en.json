@@ -14,7 +14,7 @@
             "password": "Password",
             "rep-pass": "Repeat password"
         },
-        "password-res": "At least 6 characters containing a letter and number.",
+        "password-res": "At least 6 characters containing upper and lowercase letters and a number.",
         "button": "Register",
         "ad": "By clicking the button, you are stating you agree to the",
         "terms": "terms and conditions of access to GLORIA.",

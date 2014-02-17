@@ -14,7 +14,7 @@
 			"password": "Contraseña",
 			"rep-pass": "Repetir contraseña"
 		},
-		"password-res": "Al menos 6 caracteres, un número y una letra",
+		"password-res": "Al menos 6 caracteres que contengan una mayúscula, una minúscula y un número.",
 		"button": "Regístrate",
 		"ad": "Al hacer click en el botón, estás manifestando estar de acuerdo con los",
 		"terms": "términos y condiciones de acceso a GLORIA",
