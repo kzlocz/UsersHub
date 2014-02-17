@@ -1,39 +1,39 @@
 {
     "brand": {
-        "discover": "Discover",
-        "learn": "learn",
-        "research": "research",
-        "share": "share",
-        "subtitle": "GLORIA opens the doors of the universe"
+        "discover": "Objevujte",
+        "learn": "učte se",
+        "research": "zkoumejte",
+        "share": "sdílejte",
+        "subtitle": "GLORIA otevírá dveře do vesmíru"
     },
     "register": {
-        "title": "Join GLORIA",
+        "title": "Přidejte se k projektu GLORIA",
         "placeholders": {
-            "alias": "Username",
+            "alias": "Uživatelské jméno",
             "email": "Email",
-            "password": "Password",
-            "rep-pass": "Repeat password"
+            "password": "Heslo",
+            "rep-pass": "Opakujte heslo"
         },
-        "password-res": "At least 6 characters containing a letter and number.",
-        "button": "Register",
-        "ad": "By clicking the button, you are stating you agree to the",
-        "terms": "terms and conditions of access to GLORIA.",
+        "password-res": "Nejméně 6 znaků, obsahujících písmena a čísla.",
+        "button": "Registrovat",
+        "ad": "Kliknutím na tlačítko vyjadřujete souhlass",
+        "terms": "s podmínkami projektu GLORIA.",
         "errors": {
-            "server": "Connection server error. Sorry for the inconvenience.",
-            "email": "Email already exists",
-            "unknown": "Unknown error",
-            "password": "Password is not valid",
-            "match": "Passwords do not match",
-            "alias": "Username already exists",
-            "inv-email": "Email is not valid"
+            "server": "Chyba spojení. Omlouváme se za nepříjemnosti.",
+            "email": "Email je již registrován",
+            "unknown": "Neznámá chyba",
+            "password": "Heslo není platné",
+            "match": "Hesla se neshodují",
+            "alias": "Takové uživatelské jméno je již použito",
+            "inv-email": "Email není platný"
         },
-        "success": "Registration successful! Check your inbox to activate your account."
+        "success": "Registrace proběhla úspěšně! Zkontrolujte svoji poštovní schránku a aktivujte svůj účet."
     },
     "reset": {
-        "title": "Reset your account",
-        "intro": "If you forgot your password we can send you a new one. All we need is to know the email address with which you registered on GLORIA.",
-        "button": "Reset",
-        "success": "Request received! Check your inbox to activate your new password.",
+        "title": "Obnovení vašeho účtu",
+        "intro": "Pokud jste zapomněl(a) heslo, pošleme vám nové. Potřebuje k tomu vaši emailovou adresu použitou při registraci.",
+        "button": "Obnovit",
+        "success": "Požadavek přijat! Zkontrolujte svoji poštovní schránku a aktivujte nové heslo.",
         "placeholder": "Email"
     }
 }
