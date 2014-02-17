@@ -1,60 +1,60 @@
 {
     "section1": {
-        "title": "You should know...",
-        "text": "That the GLORIA project is still at an early stage of development. We are a small and multidisciplinary team (astronomers, computer scientists, physicists, artists...) sharing a common vision to bring the sky into your home, school or lab."
+        "title": "Co powinieneś wiedzieć...",
+        "text": "Projekt GLORIA jest w dalszym ciągu we wczesnej fazie rozwojowej. Nasz zespół stanowi garstka specjalistów z wielu dziedzin (astronomów, programistów, fizyków, artystów...) dzielących wspólną ideę konieczności przybliżenia nieba w domu i szkole."
     },
     "section2": {
-        "title": "Our goal",
-        "text": "We want GLORIA to become the tool of choice for learning and research in astronomy. It is an ambitious goal and we know that there is a long road ahead. Our first milestone is to provide a set of experiments so you can test our telescopes and help researchers by doing image analysis."
+        "title": "Nasz cel",
+        "text": "Chcemy aby GLORIA stała się pełnowartościowym narzędziem pozwalającym na edukację oraz prowadzenie badań astronomicznych. Przed nami stoi jeszcze wiele ambitnych celów. Pierwszym z kroków w ich osiągnięciu jest stworzenie grupy eksperymentów służących do sprawdzenia naszych teleskopów oraz wsparcia badań prowadzonych przez zawodowych astronomów."
     },
     "section3": {
-        "title": "What can you do?",
-        "paragraph1": "The basic tool for learning and research is the experiment. In GLORIA we have two types of experiments: ones that take new images (`online') and ones that analyse images (`offline').",
-        "paragraph2": "Currently we offer four different experiments, which we want to improve with your help. Enjoy!",
+        "title": "Co można z nami robić?",
+        "paragraph1": "Najlepszą metodą dla nauki i badań jest eksperymentowanie. W ramach projektu GLORIA przekazujemy Wam do użycia dwa rodzaje eksperymentów: pierwszy typ pozwala na wykonanie nowych obrazów (`online') zaś drugi typ tylko na ich analizę (`offline').",
+        "paragraph2": "Obecnie udostępniamy cztery różne eksperymenty, które mamy nadzieję poprawić z Waszą pomocą. Bawcie się dobrze!",
         "experiments": {
             "solar": {
-                "title": "Solar experiment",
-                "desc": "Explore the Sun and its spots. Take images to contribute to measurement of solar activity."
+                "title": "Eksperyment słoneczny",
+                "desc": "Poznaj Słońce i jego plamy. Wykonaj zdjęcia i pomóż poznać lepiej aktywność słoneczną."
             },
             "night": {
-                "title": "Night experiment",
-                "desc": "Watch the night sky. Planets, stars, galaxies and asteroids await."
+                "title": "Nocne obserwacje",
+                "desc": "Popatrz na niebo w nocy. Czekają tam na Ciebie planety, gwiazdy, galaktyki i planetoidy."
             },
             "pspace": {
                 "title": "Personal space",
-                "desc": "Choose an important event in your life and see the sky that was directly overhead at that exact moment."
+                "desc": "Wybierz istotny dla Ciebie moment w życiu i zobacz jak wyglądało niebo nad Twoją głową dokładnie w tej ulotnej chwili."
             },
             "wolf": {
-                "title": "Solar activity",
-                "desc": "Analyse sunspots on your Android and contribute to the measurement of solar activity."
+                "title": "Aktywność słoneczna",
+                "desc": "Policz plamy słoneczne z pomocą swojego urządzenia z Androidem i przyczyń się do poznania aktywności słonecznej."
             },
             "luiza": {
-                "title": "Variable stars",
-                "desc": "View the light curve of a selected star."
+                "title": "Gwiazdy zmienne",
+                "desc": "Zobacz krzywą blasku wybranej gwiazdy."
             }
         }
     },
     "widgets": {
-        "loading": "Loading",
-        "excl": "Oops!",
-        "noimg": "No images found",
+        "loading": "Ładuję",
+        "excl": "Uuups!",
+        "noimg": "Nie znaleziono zdjęć",
         "community": {
-            "title": "Community images",
+            "title": "Zdjęcia społeczności",
             "slide": {
-                "title": "@{p1}@ image",
+                "title": "zdjęcie @{p1}@",
                 "date": "@{p1}@"
             }
         },
         "user": {
-            "title": "Your images",
+            "title": "Twoje zdjęcia",
             "slide": {
-                "title": "@{p1}@ image",
+                "title": "zdjęcie @{p1}@",
                 "date": "@{p1}@"
             }
         },
         "telescopes": {
-            "title": "Our telescopes",
-            "ad": "A bigger map"
+            "title": "Nasze teleskopy",
+            "ad": "Większa mapa"
         }
     }
 }
