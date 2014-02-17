@@ -1,6 +1,6 @@
 {
 	
-	"header": "Problèmes du logiciel",
+	"header": "Problèmes, améliorations du logiciel",
 	"intro": "Nous voudrions partager avec vous la liste des problèmes que nous tentons de résoudre et des améliorations auxquelles nous travaillons. Pour ce faire, nous nous basons sur les services de nos dépôts Github, et particulièrement pour ce site, le projet SolarExperiment.",
 	"scope": "UsersHub est un logiciel qui permet d'accéder aux pages \"Accueil\", \"Images\", \"Profil\" et \"Problèmes\"",
 	"bugs": "Bugs",
