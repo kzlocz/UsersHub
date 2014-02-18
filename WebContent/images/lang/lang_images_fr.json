@@ -1,11 +1,11 @@
 {
-    "header": "Image album",
+    "header": "Album d'images",
     "slide": {
-        "title": "@{p1}@ image",
+        "title": "image @{p1}@",
         "date": "@{p1}@"
     },
-    "intro": "This tool allows you to view all the pictures taken by the community every day. Just use the calendar and browse snapshots.",
+    "intro": "Cet outil vous permet de voir toutes les images obtenues par la communauté chaque jour. Utilisez le calendrier pour sélectionner une journée.",
     "excl": "Oops!",
-    "noimg": "There are no images from that day",
-    "loading": "Loading"
+    "noimg": "Il n'y a pas d'image ce jour",
+    "loading": "Chargement"
 }
