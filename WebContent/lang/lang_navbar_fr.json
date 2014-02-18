@@ -1,33 +1,33 @@
 {
     "titles": {
-        "home": "Home",
+        "home": "Accueil",
         "experiments": {
-            "header": "Experiments",
+            "header": "Expériences",
             "online": {
-                "header": "ONLINE",
-                "solar": "Solar",
-                "night": "Night"
+                "header": "EN LIGNE",
+                "solar": "Solaire",
+                "night": "Nuit"
             },
             "reservations": {
-                "header": "RESERVATIONS",
-                "new": "New",
-                "pending": "Pending"
+                "header": "RÉSERVATIONS",
+                "new": "Nouveau",
+                "pending": "En attente"
             },
             "offline": {
-                "header": "OFFLINE",
-                "pspace": "Personal space",
-                "wolf": "Solar activity",
-                "luiza": "Variable stars"
+                "header": "HORS LIGNE",
+                "pspace": "Espace personel",
+                "wolf": "Activité solaire",
+                "luiza": "Étoiles variables"
             }
         },
         "images": {
             "header": "Images"
         },
         "profile": {
-            "header": "Profile"
+            "header": "Profil"
         },
         "issues": {
-            "header": "Issues"
+            "header": "Problèmes"
         }
     }
 }
