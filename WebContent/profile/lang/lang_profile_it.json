@@ -1,33 +1,33 @@
 {
-	"header": "Your profile",
-	"intro": "This is the place where you can view and manage your personal information. Shortly we show data about your contribution in GLORIA and rewards you get. Meanwhile, we are considering your actions so that your merit to be reciprocated.",
+	"header": "Il tuo profilo",
+	"intro": "Questo è il posto dove puoi controllare e gestire le tue informazioni personali. A breve mostreremo i dati del tuo contributo in GLORIA e i 'premi' che ottieni. Nel frattempo teniamo traccia di quello che fai in modo che poi tu possa essere ricompensato.",
 	"update": {
 		"placeholders": {
-			"password": "New password",
-			"rep-pass": "Repeat new password"
+			"password": "Nuova password",
+			"rep-pass": "Ripeti la nuova password"
 		},
-		"password-res": "At least 6 characters containing upper and lowercase letters and a number.",
+		"password-res": "Almeno 6 caratteri contenenti lettere minuscole, maiuscole e almeno un numero.",
 		"errors": {
-            "server": "Connection server error. Sorry for the inconvenience.",
-            "unknown": "Unknown error",
-            "password": "Password is not valid",
-            "match": "Passwords do not match"
+            "server": "Errore di connessione al server. Spiacenti dell'inconveniente.",
+            "unknown": "Errore sconosciuto",
+            "password": "La password non è valida",
+            "match": "Le password non corrispondono"
         },
-        "success": "Request received! Check your inbox to activate your new password.",
-         "button": "Change",
+        "success": "Richiesta ricevuta! Controlla la tua casella di posta per attivare la tua nuova password.",
+         "button": "Cambia",
          "title": "Password"
 	},
 	"avatar": {
 		"title": "Avatar",
-		"ad": "GLORIA relies on Gravatar.com to recover your avatar or assign one if you have not created. Click on the image if you want to change it."
+		"ad": "GLORIA si affida a Gravatar.com per recuperare il tuo avatar o assegnartene uno se non l'hai creato. Clicca sull'immagine se vuoi cambiarla."
 	},
 	"about": {
-		"title": "About you",
+		"title": "A proposito di te",
 		"ocupation": {
-			"title": "What do you do?",
-			"student": "I am a student",
-			"scientist": "I am a scientist",
-			"other": "I do other things"
+			"title": "Che cosa fai?",
+			"student": "Sono uno studente",
+			"scientist": "Sono uno scienziato",
+			"other": "Faccio altro"
 		}
 	}
 }
