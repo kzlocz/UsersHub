@@ -1,33 +1,33 @@
 {
-	"header": "Your profile",
-	"intro": "This is the place where you can view and manage your personal information. Shortly we'll show data about your contribution in GLORIA and the rewards you get. Meanwhile, we are keeping track of your activity so that your achievement can be recognised.",
+	"header": "Váš profil",
+	"intro": "Toto je místo, kde můžete spravovat své osobní informace. Již brzo na tomto místě budou takoé informace o vašem zapojení do projektu GLORIA. Informace o vaší aktivitě jsou zatím neveřejné.",
 	"update": {
 		"placeholders": {
-			"password": "New password",
-			"rep-pass": "Repeat new password"
+			"password": "Nové heslo",
+			"rep-pass": "Opakujte nové heslo"
 		},
-		"password-res": "At least 6 characters containing upper and lowercase letters and at least a number.",
+		"password-res": "Nejméně 6 znaků obsahujících malé a velká písmena a nejméně jedno číslo.",
 		"errors": {
-            "server": "Server connection error. Sorry for the inconvenience.",
-            "unknown": "Unknown error",
-            "password": "Password is not valid",
-            "match": "Passwords do not match"
+            "server": "Chyba spojení. Omlouváme se za nepříjemnosti.",
+            "unknown": "Neznámá chyba",
+            "password": "Heslo není platné",
+            "match": "Hesal nejsou stejná"
         },
-        "success": "Request received! Check your inbox to activate your new password.",
-         "button": "Change",
-         "title": "Password"
+        "success": "Obdrželi jsme žádost! Zkontrolujte poštu a aktivuje nové heslo.",
+         "button": "Změnit",
+         "title": "Heslo"
 	},
 	"avatar": {
 		"title": "Avatar",
-		"ad": "GLORIA relies on Gravatar.com to recover your avatar or to assign one if you have not created it. Click on the image if you want to change it."
+		"ad": "GLORIA využívá Gravatar.com pro správu vašeho avataru. Klikněte na obrázek, pokud ho chcete změnit."
 	},
 	"about": {
-		"title": "About you",
+		"title": "O vás",
 		"ocupation": {
-			"title": "What do you do?",
-			"student": "I am a student",
-			"scientist": "I am a scientist",
-			"other": "I do other things"
+			"title": "Čím se zabýváte?",
+			"student": "Jsem student",
+			"scientist": "Jsem vědec",
+			"other": "Něčím jiným"
 		}
 	}
 }
