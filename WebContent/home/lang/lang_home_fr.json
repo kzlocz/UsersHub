@@ -23,37 +23,38 @@
             "pspace": {
                 "title": "Espace personnel",
                 "desc": "Choisissez un événement important de votre vie et observez le ciel comme il était à ce moment",
-            "wolf": {
-                "title": "Activité solaire",
-                "desc": "Analysez les taches solaires sur votre terminal Android et contribuez à la mesure de l'activité solaire."
-            },
-            "luiza": {
-                "title": "Étoiles variables",
-                "desc": "Sélectionnez des étoiles et observez leur courbe de lumière."
+                "wolf": {
+                    "title": "Activité solaire",
+                    "desc": "Analysez les taches solaires sur votre terminal Android et contribuez à la mesure de l'activité solaire."
+                },
+                "luiza": {
+                    "title": "Étoiles variables",
+                    "desc": "Sélectionnez des étoiles et observez leur courbe de lumière."
+                }
             }
-        }
-    },
-    "widgets": {
-        "loading": "Chargement",
+        },
+        "widgets": {
+            "loading": "Chargement",
             "excl": "Ai!",
-        "noimg": "Pas d'image trouvée,
-        "community": {
-            "title": "Images publiques",
-            "slide": {
-                "title": "Image @{p1}@",
-                "date": "@{p1}@"
+            "noimg": "Pas d'image trouvée",
+            "community": {
+                "title": "Imagespubliques",
+                "slide": {
+                    "title": "Image@{p1}@",
+                    "date": "@{p1}@"
+                }
+            },
+            "user": {
+                "title": "Vosimages",
+                "slide": {
+                    "title": "Image@{p1}@",
+                    "date": "@{p1}@"
+                }
+            },
+            "telescopes": {
+                "title": "Nostélescopes",
+                "ad": "Uneplusgrandecarte"
             }
-        },
-        "user": {
-            "title": "Vos images",
-            "slide": {
-                "title": "Image @{p1}@",
-                "date": "@{p1}@"
-            }
-        },
-        "telescopes": {
-            "title": "Nos télescopes",
-            "ad": "Une plus grande carte"
         }
     }
 }
