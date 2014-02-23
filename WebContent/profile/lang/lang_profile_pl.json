@@ -1,33 +1,33 @@
 {
-	"header": "Your profile",
-	"intro": "This is the place where you can view and manage your personal information. Shortly we'll show data about your contribution in GLORIA and the rewards you get. Meanwhile, we are keeping track of your activity so that your achievement can be recognised.",
+	"header": "Twój profil",
+	"intro": "W tym miejscu zobaczysz i zmienisz ustawienia swojego profilu. Tutaj będziemy prezentować jaki wkład wnosisz w projekt GLORIA i co możemy Ci przekazać w zamian. Do tego czasu będziemy monitorować Twoją aktywność aby móc ją podkreślić.",
 	"update": {
 		"placeholders": {
-			"password": "New password",
-			"rep-pass": "Repeat new password"
+			"password": "Nowe hasło",
+			"rep-pass": "Powtórz hasło"
 		},
-		"password-res": "At least 6 characters containing upper and lowercase letters and at least a number.",
+		"password-res": "Musi składać się z co najmniej 6 znaków, z wielkich i małych liter oraz co najmniej jednej cyfry.",
 		"errors": {
-            "server": "Server connection error. Sorry for the inconvenience.",
-            "unknown": "Unknown error",
-            "password": "Password is not valid",
-            "match": "Passwords do not match"
+            "server": "Błąd serwera. Przepraszamy za niedogodności.",
+            "unknown": "Nieznany błąd",
+            "password": "Hasło jest nieprawidłowe",
+            "match": "Hasło nie jest zgodne"
         },
-        "success": "Request received! Check your inbox to activate your new password.",
-         "button": "Change",
-         "title": "Password"
+        "success": "Zgłoszenie przyjęte! Sprawdź swoją skrzynkę pocztową aby zatwierdzić nowe hasło.",
+         "button": "Zmień",
+         "title": "Hasło"
 	},
 	"avatar": {
 		"title": "Avatar",
-		"ad": "GLORIA relies on Gravatar.com to recover your avatar or to assign one if you have not created it. Click on the image if you want to change it."
+		"ad": "Twoja osobista ikona GLORIA wspierana jest przez serwis Gravatar.com. Żeby odzyskać swoją ikonę Gravatar lub stworzyć własną kliknij na nią."
 	},
 	"about": {
-		"title": "About you",
+		"title": "Kim jesteś",
 		"ocupation": {
-			"title": "What do you do?",
-			"student": "I am a student",
-			"scientist": "I am a scientist",
-			"other": "I do other things"
+			"title": "Czym się zajmujesz?",
+			"student": "Uczę się",
+			"scientist": "Jestem naukowcem",
+			"other": "Zajmuję się czymś innym"
 		}
 	}
 }
